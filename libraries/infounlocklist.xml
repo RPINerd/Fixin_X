@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- Skip_Station_Scan by navik659
+    Station scanning is a chore after your first few hundred times, but there is still something cathartic and desirable from a role play perspective. Therefore, I bumped up the scan percentages for some more "private" statistics. If you don't like this, change any of the values below that aren't zero back to zero. This will give you all info about a station the moment you know it exists.
+  -->
+	<replace sel="//infounlocklist/infos">
+    <infos>
+      <info type="name" percent="0" />                                <!-- object menu -->
+      <info type="owner" percent="0" />                               <!-- map menu: info tab -->
+      <info type="production_products" percent="10" />                 <!-- production menu -->
+      <info type="production_resources" percent="10" />                <!-- production menu -->
+      <info type="production_rate" percent="20" />                    <!-- storage menu, production menu, LuaFunction::GetStorageData() -->
+      <info type="production_time" percent="10" />                    <!-- object menu, production menu -->
+      <info type="consumption_rate" percent="15" />                   <!-- production menu -->
+      <info type="operator_name" percent="10" />                       <!-- object menu, controlentities menu, orders menu -->
+      <info type="operator_details" percent="15" />                    <!-- controlentities menu, orders menu -->
+      <info type="operator_commands" percent="20" />                  <!-- ships menu, controlentities menu, orders menu -->
+      <info type="defence_level" percent="65" />                      <!-- object menu, military menu -->
+      <info type="defence_status" percent="70" />                     <!-- object menu, military menu -->
+      <info type="efficiency_type" percent="20" />                    <!-- production menu -->
+      <info type="efficiency_amount" percent="25" />                  <!-- object menu, production menu -->
+      <info type="equipment_mods" percent="45" />
+      <info type="storage_capacity" percent="15" />                    <!-- object menu, storage menu, LuaFunction::GetStorageData() -->
+      <info type="storage_amounts" percent="20" />                    <!-- object menu, storage menu, LuaFunction::GetStorageData() -->
+      <info type="storage_warelist" percent="20" />                   <!-- storage menu, LuaFunction::GetStorageData() -->
+      <info type="managed_ships" percent="45" />                      <!-- object menu -->
+      <info type="docked_ships" percent="20" />
+      <info type="units_amount" percent="15" />                        <!-- storage menu -->
+      <info type="units_capacity" percent="10" />                     <!-- storage menu -->
+      <info type="units_details" percent="30" />                      <!-- storage menu -->
+    </infos>
+	</replace>
+</diff>

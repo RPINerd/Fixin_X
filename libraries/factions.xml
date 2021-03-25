@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- Dynamic_Scaleplate_Relations by w.evans
+    This simply allows you to gain or lose reputation with the SCA pirates. I've had some goofy things happen with them so I don't know that this is a foolproof solution, but most of the time it seems to work.
+
+	<remove sel="//faction[@id='scaleplate']/relations/@locked"/>
+	-->
+</diff>

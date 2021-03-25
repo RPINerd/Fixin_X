@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Better Tractor Beam by Spacecop42
+	Range should be self explanitory, and is in meters (not km). Force is the oomph behind the tractor beam, for all intents and purposes this can sort of be considered acceleration. I cannot say for sure but I believe the value is a multiple of the default force, so '2' would be double the oomph of the vanilla. Finally, max speed is how fast the wares can get going if they're far out enough. Setting this really high is funny, but turns drops into orbiting crates of annoyance.
+-->
+
+<diff>
+	<replace sel="/parameters/lootmagnet">
+		<lootmagnet range="5500" force="2" maxspeed="250" sound="containermagnet_active" />
+	</replace>
+</diff>

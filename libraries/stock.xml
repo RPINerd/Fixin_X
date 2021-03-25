@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- Rare_Modparts_Sold by t12121970
+    My main explanation on this mod is in the wares.xml, this chunk just affects the quantity of the respective mod that a trader will have in stock.
+    ref= is your part name
+    min= is the bare minimum number of units a trader will have
+    max= should be self explanatory
+    chance= the % chance that any given vendor will have this part in stock
+
+    I personally think the quantity in the base mod is silly, having 100 tier 3 components at MINIMUM is just.. no. So I have adjusted all the numbers to ones that feel more reasonable to me. If you don't like my changes, you can set everything back to the default of min=100 max=150 chance=70.
+  -->
+	<add sel="/stocks/stock[@id='default_trader']">
+		<ware ref="modpart_nividiumoxide" min="5" max="45" chance="35" />
+		<ware ref="modpart_tuningsoftware" min="1" max="20" chance="45" />
+		<ware ref="modpart_enginefuelinjector_t1" min="1" max="20" chance="35" />
+		<ware ref="modpart_enginefuelinjector_t2" min="1" max="10" chance="20" />
+		<ware ref="modpart_enginefuelinjector_t3" min="1" max="5" chance="15" />
+		<ware ref="modpart_extendedfuelcontainer" min="1" max="25" chance="30" />
+		<ware ref="modpart_highenergycatalyst" min="1" max="30" chance="40" />
+		<ware ref="modpart_nividiumcrystallite" min="1" max="25" chance="45" />
+		<ware ref="modpart_shieldgeneratorcoil_t1" min="1" max="20" chance="35" />
+		<ware ref="modpart_shieldgeneratorcoil_t2" min="1" max="10" chance="20" />
+		<ware ref="modpart_shieldgeneratorcoil_t3" min="1" max="5" chance="10" />
+		<ware ref="modpart_shipnanoweave_t1" min="1" max="5" chance="35" />
+		<ware ref="modpart_shipnanoweave_t2" min="1" max="4" chance="20" />
+		<ware ref="modpart_shipnanoweave_t3" min="1" max="3" chance="10" />
+		<ware ref="modpart_weaponchamber_t1" min="1" max="20" chance="35" />
+		<ware ref="modpart_weaponchamber_t2" min="1" max="15" chance="20" />
+		<ware ref="modpart_weaponchamber_t3" min="1" max="10" chance="15" />
+	</add>
+
+	<!-- Seta_Parts_Vendors by Spacecop42
+    This was part of the original G_Pack but I don't like it, therefore I removed it. If you do want station traders to sell SETA components just remove the 2 lines that I have marked below and the wares will come back.
+  -->
+
+  <!-- **DELETE THIS LINE**
+
+	<replace sel="/stocks/stock[@id='default_trader']/ware[@ref='inv_fluxcapacitor']">
+		<ware ref="inv_fluxcapacitor" min="1" max="5" chance="60"/>
+	</replace>
+	<replace sel="/stocks/stock[@id='default_trader']/ware[@ref='inv_programmablefieldarray']">
+		<ware ref="inv_programmablefieldarray" min="1" max="5" chance="60"/>
+	</replace>
+	<replace sel="/stocks/stock[@id='default_trader']/ware[@ref='inv_damagedsingularityengine']">
+		<ware ref="inv_damagedsingularityengine" min="1" max="5" chance="60"/>
+	</replace>
+
+  **AND DELETE THIS LINE** -->
+
+</diff>

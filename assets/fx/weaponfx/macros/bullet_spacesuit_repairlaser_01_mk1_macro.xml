@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Improved Repair Laser by iforgotmysocks
+    I have bumped this up even higher, the mods base values are 100/10 but that still felt restrictive to me. 200/20 is possibly a bit cheaty, but I've logged so many hours hunting data vaults that I can't be bothered anymore..
+-->
+
+<diff>
+  <replace sel="//bullet/@range">200</replace>   <!-- This number determines the range in meters that the laser reaches -->
+  <replace sel="//damage/@hull">20</replace>     <!-- This number is the amount of hull points per second which are healed -->
+</diff>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<replace sel="/soundlibrary/sound[@id='cockpit_chair_activating']">
+  <sound id="cockpit_chair_activating" description="Cockpit chair turns to player" repeat="1" is3d="1" preload="0">
+    <sample start="sfx\animation\cockpit_chair_activating"/>
+    <volume start="0"/>
+  </sound>
+</replace>
+<replace sel="/soundlibrary/sound[@id='cockpit_chair_02_activating']">
+  <sound id="cockpit_chair_02_activating" description="Cockpit chair turns to player" repeat="1" is3d="1" preload="0">
+    <sample start="sfx\animation\cockpit_chair_activating"/>
+    <volume start="0"/>
+  </sound>
+</replace>
+
+<replace sel="/soundlibrary/sound[@id='cockpit_chair_deactivating']">
+  <sound id="cockpit_chair_deactivating" description="Cockpit chair turns away from player" repeat="1" is3d="1" preload="0">
+    <sample start="sfx\animation\cockpit_chair_deactivating"/>
+    <volume start="0"/>
+  </sound>
+</replace>
+<replace sel="/soundlibrary/sound[@id='cockpit_chair_02_deactivating']">
+  <sound id="cockpit_chair_02_deactivating" description="Cockpit chair turns away from player" repeat="1" is3d="1" preload="0">
+    <sample start="sfx\animation\cockpit_chair_deactivating"/>
+    <volume start="0"/>
+  </sound>
+</replace> 
+</diff>

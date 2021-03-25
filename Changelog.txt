@@ -1,0 +1,125 @@
+V 1.4
+
+- Dropped the explore alterations, JanPanthera makes better scripts and I'm sick of dealing with Ego breaking and unbreaking the explorer :p
+
+- Revamped all the build module time reductions and corrected some mistakes, currently at 60% 
+
+- Took some inspiration from "No cockpit chair sounds" to drop the annoyance level of those chairs (looking at you dragon)
+
+- Tweaked some of the scan percentage requirements, they were a bit too cheeky after playing a ton of vanilla
+
+- Drastically neutered the amount of mod components vendors sell and the chances they carry them
+
+- Overhauled ALL of the mod componenet prices, no more earning millions for tuning software and buying T3 weapon mods in bulk
+
+- Disabled the smart chip economy fix; been playing vanilla and not seen the same issue from back in the day
+
+- Updated Learning All The Things and lowered some of the values to keep the new beta seminars valuable, also go give iforgotmysocks some love!
+
+- Dropped the time for travel charge of All-Round L engines to 7 seconds. Travel varients are 10 seconds for L and 12 seconds for XL now.
+
+- Lots of spelling/formatting/gramatical tweaks that no one will ever notice or care about in the documentation.
+
+V 1.3
+
+- Fixed station module time reduction not working properly
+
+- Added "Surface Element" mod to the list for removing random stats
+
+- Removed station credit transfer script, it wasn't working and JanPanthera makes a better one
+
+V 1.2
+
+- Removed stations supply build storage script
+
+- Removed collect inventory wares script
+
+- Altered Learning All The Things so that only currently used skills advance
+
+- Added split station modules to the build time reduction list
+
+- Bumped up satellite range slightly
+
+- Put the exporation fixes back in because Egosoft just loves to break things...
+
+- Fixed a file structure problem that caused the split engine charge to not be reduced
+
+V 1.1
+
+- Removed "Turret Cycling Fix", it appears that patching has sorted this out
+
+- Added Split L/XL engines to the travel drive reduction list
+
+- Dropped the Explore Faster/Better Explorer merge as it looks like Ego have improved the exploration command
+
+V 1.0
+
+- Double checked for typos in the Readme/description
+
+- Finally worked up the courage (and got permission) to put my pack on the Nexus!
+
+V 0.9.2
+
+- Added in the No More Weapon Behavior Sound changes, gets rid of that insufferable reloading sound that turrets make
+
+V 0.9.1
+
+- After much play-testing, settled on 80% build time (20% reduction) following the format from Build Time Reduction mod; original was a 10x reduction, WAY too fast to feel right for me
+
+V 0.9
+
+- Build Time Reduction (mjr121) changes merged
+- TONS of documentation cleanup, adding credits, etc.
+- Fixed indentation and line order in some *.xml files
+
+V 0.8.1
+
+- Tractor beam was a bit unstable, reduced top speed of containers and slightly bumped up the range
+
+V 0.8
+
+- Found unpacked versions for Shorter Travel Drive and Improved Tractor Beam to merge with my other changes
+
+V 0.7
+
+- Added in graphicboy's station account transfer snippet so I could remove the other standalone mod I was using for this purpose
+
+V 0.5
+
+- Faster Explorer (Simmel) tweak merged with an adjusted Improved Explore Command (MegaJohnny) script
+- Dropped More NPC's to 50 (default 100) after performance issues on my laptop and silliness in the bars
+
+V 0.4
+
+- Learning all the Things default settings gave me full 5 star crew after a short amount of SETA time. Tweaked and tested lowering all of the different values associated. Settled (for now) at 12% chance for 1 point each hour.
+
+V 0.3
+
+- Combined all the following with no noticeable issues:
+- Djfhes Dock Fix
+- Faster Explorer
+- Learning All The Things
+- More NPC's
+- Improved Explore Command
+- Improved Repair Laser
+- Stations Supply Build Storage
+- Collect Inventory Wares
+
+V 0.2.2
+
+- Linux is a case-sensitive operating system; learned the hard way
+- Going forward, all versions will be fully Linux compatible
+
+V 0.2.1
+
+- It didn't work, only merge a few mods and test for quirks
+
+V 0.2
+
+- It worked! Incorporate ALL THE MODS!
+
+V 0.1
+
+- Did not like some of the settings in the G_Pack mod, opened up Atom and changed things more to my personal taste
+- Added in the change from Smart Chip Economy (zebai) into G_Pack's wares.xml
+- Begun my journey into learning how basic *.xml mods work
