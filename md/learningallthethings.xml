@@ -12,7 +12,7 @@
       </conditions>
       <actions>
         <!-- UPDATE -->
-        <set_value name="$versionNumber" exact="0.6"/>
+        <set_value name="$versionNumber" exact="1.5"/>
         <do_if value="event.param">
           <show_help duration="15s" custom="'Learning All The Things (Fixin' X Bundle) update to version %1 complete.'.[$versionNumber]"/>
         </do_if>
@@ -23,16 +23,15 @@
       <cues>
         <cue name="LATT_Base_IncreaseSkills" instantiate="true" checkinterval="20min" checktime="player.age + 20s" namespace="this">
           <actions>
-            <!--
-            ##############################
-            ########### CONFIG ###########
-            -->
+            <!--###############################################################
+            ##                  CONFIG
+            ################################################################-->
 
             <!-- Chance to improve:
             This value represents the chance (in %) to level up a skill for every npc every hour.
             Value can be set from 0 to 100
             -->
-            <set_value name="$chanceToImprove" exact="35"/>
+            <set_value name="$chanceToImprove" exact="30"/>
 
             <!-- Amount to improve per run:
             Set between 0 and 15 (15 is max, meaning a 0 to 5 star jump immediately)
@@ -42,7 +41,7 @@
             <!-- Only receive job fitting experience for the affected npc's skills
             Set true or false
             -->
-            <set_value name="$jobFitting" exact="false" />
+            <set_value name="$jobFitting" exact="true" />
             
             <!-- Chance divided by stars:
             When enabled, the chance set above will be devided by the npc's amount of stars, leading to slower leveling with a higer number of stars. So with a base chance of 30%, a 2 stars a pilot would only have a 15% chance to gain more levels, and a 3 star npc only 10%.
@@ -226,7 +225,7 @@
           </conditions>
           <actions>
             <!--UPDATE-->
-            <set_value name="$newVersionNumber" exact="0.6"/>
+            <set_value name="$newVersionNumber" exact="1.5"/>
 
             <do_if value="$versionNumber != $newVersionNumber or $versionNumber == null or $versionNumber == 0">
               <signal_cue_instantly cue="LATT_KeepAlive" param="true"/>
