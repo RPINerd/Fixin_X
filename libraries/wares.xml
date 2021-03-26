@@ -2,11 +2,6 @@
 
 <diff>
 
-  <!-- Smart Chip Economy by zebai
-    Traders don't like dealing in Smart Chips becuase of their value-to-volume calculation. The result is that no one in the universe ever has enough smart chips and everything grinds to a hault. Slightly lowering the amount of space each unit takes up helps to alleviate this issue. Again, hopefully in the future we will not need this!
-  -->
-    <!-- <replace sel="//ware[@id='smartchips']/@volume">3</replace> -->
-
   <!-- Fix_Illegal_Buy by TheLich
     When you go to a black market dealer, it always says that you need better relations to sell them the security hacking tools. This sets them to be sellable.
   -->
