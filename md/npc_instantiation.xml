@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
 <!-- More NPCs, does what it says on the tin! This does not change the SKILLS of the NPC's wandering the station, it just give it more life. Change "exact=" value to however many people you want, but remember: more characters = less performance! -->
 
   <replace sel="//set_value[@name='this.$RemainingAmount' and @exact='[this.$RemainingAmount, this.$WorkforceTotal].min']">
