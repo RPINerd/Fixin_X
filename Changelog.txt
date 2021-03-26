@@ -1,3 +1,19 @@
+V 1.5
+
+- Terran update, yay!
+
+- Terran station build times reduced to match other races
+
+- Terran engine travel charge matched to other races
+
+- Removed Smart Chip Economy Fix from the code, I think it's now depreciated
+
+- Major redesign of README and restructuring for hosting on Github
+
+- Tweaked Learning All The Things some more
+
+- More indentation and prettiefying
+
 V 1.4
 
 - Dropped the explore alterations, JanPanthera makes better scripts and I'm sick of dealing with Ego breaking and unbreaking the explorer :p
