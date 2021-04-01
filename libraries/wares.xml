@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <diff>
+
 <!-- Fix_Illegal_Buy by TheLich
 	When you go to a black market dealer, it always says that you need better relations to sell them the security hacking tools. This sets them to be sellable.
   	-->
@@ -282,8 +283,6 @@
 		<replace sel="/wares/ware[@id='module_spl_stor_solid_s_01']/production[@method='default']/@time">283</replace>
 
 	<!-- Terran -->
-		<replace sel="/wares/ware[@id='energycells']/production[@method='default']/@amount">50</replace>
-		<replace sel="/wares/ware[@id='medicalsupplies']/production[@method='default']/@amount">140</replace>
 		<replace sel="/wares/ware[@id='module_ter_conn_base_01']/production[@method='default']/@time">28</replace>
 		<replace sel="/wares/ware[@id='module_ter_conn_base_02']/production[@method='default']/@time">41</replace>
 		<replace sel="/wares/ware[@id='module_ter_conn_base_03']/production[@method='default']/@time">58</replace>
