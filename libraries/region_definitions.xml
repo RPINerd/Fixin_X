@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <!-- Chill out the absurdly dangerous regions (now they all only drain shields)-->
+
+  <!-- The Void -->
+  <remove sel='/regions/region[@name="region2_cluster_27_sector_001"]/fields/damagefield/damage/@noshield' />
+  <remove sel='/regions/region[@name="region2_cluster_27_sector_001"]/fields/damagefield/effects/@hull' />
+
+  <!-- Tharka's Cascade -->
+  <remove sel='/regions/region[@name="region_cluster_32_sector_001"]/fields/damagefield[damage/@noshield]' />
+
+</diff>
