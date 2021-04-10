@@ -18,7 +18,7 @@
 
 - Lower station scan percentage needed for info
 - Fix for illegal goods not being sellable
-- Buildtime for all station modules reduced to 60% of their original speed
+- Buildtime for all station modules reduced to 80% of their original speed
 - Range and strength of repair laser increaced
 - Visibility range of satellites bumped up mildly
 - Learning All The Things (Custom Configuration)
