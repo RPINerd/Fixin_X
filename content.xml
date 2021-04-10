@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<content id="Fixin' X" name="Fixin' X" description="Brings together many top rated tweaks/fixes/improvements under one banner with Linux compatibility and detailed documentation on how to tailor everything to your own desires." author="RPINerd" version="1.6" date="2021-04-01" save="0" enabled="true">
-
+<content id="Fixin' X" name="Fixin' X" author="RPINerd" version="160" date="2021-04-10" save="0" description="A large conglomeration of tweaks/fixes/improvements under one banner with Linux compatibility and detailed documentation on how to tailor everything to your own desires." enabled="true">
+    <dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>
+    <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity"/>
 </content>
