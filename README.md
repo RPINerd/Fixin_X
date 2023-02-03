@@ -1,3 +1,6 @@
+# Note of coming updates
+The game is getting a huge engine update this year and it sounds like quite the overhaul with the release of the Boron DLC. Mods may break, including this one. I've not gotten back into the game as of late but I will be testing things out on the 6.0 Beta branch and will hopefully keep this mod functional as it is right now!
+
 ># Fixin' X
 >## A compilation, merging, and tweaking of small individual changes that make the game feel more polished and less tedious!
 >
