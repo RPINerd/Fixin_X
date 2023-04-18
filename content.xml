@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<content id="Fixin' X" name="Fixin' X" author="RPINerd" version="160" date="2021-04-10" save="0" description="A large conglomeration of tweaks/fixes/improvements under one banner with Linux compatibility and detailed documentation on how to tailor everything to your own desires." enabled="true">
+<content id="Fixin' X" name="Fixin' X" author="RPINerd" version="170-dev" date="2023-04-17" save="0" description="A large conglomeration of tweaks/fixes/improvements under one banner with Linux compatibility and detailed documentation on how to tailor everything to your own desires." enabled="true">
     <dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>
     <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity"/>
+    <dependency id="ego_dlc_pirate" optional="false" name="Tides of Avarice"/>
+    <dependency id="ego_dlc_boron" optional="false" name="Kingdom End"/>
 </content>
