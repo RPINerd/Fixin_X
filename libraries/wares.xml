@@ -352,4 +352,47 @@
 		<replace sel="/wares/ware[@id='module_ter_stor_solid_m_01']/production[@method='default']/@time">360</replace>
 		<replace sel="/wares/ware[@id='module_ter_stor_solid_s_01']/production[@method='default']/@time">208</replace>
 
+	<!-- Pirate -->
+
+	<!-- Boron -->
+		<replace sel="/wares/ware[@id='module_bor_build_dockarea_m_01']/production[@method='default']/@time">413</replace>
+		<replace sel="/wares/ware[@id='module_bor_build_l_01']/production[@method='default']/@time">433</replace>
+		<replace sel="/wares/ware[@id='module_bor_build_xl_01']/production[@method='default']/@time">751</replace>
+		<replace sel="/wares/ware[@id='module_bor_conn_base_01']/production[@method='default']/@time">23</replace>
+		<replace sel="/wares/ware[@id='module_bor_conn_base_02']/production[@method='default']/@time">43</replace>
+		<replace sel="/wares/ware[@id='module_bor_conn_base_03']/production[@method='default']/@time">65</replace>
+		<replace sel="/wares/ware[@id='module_bor_conn_base_04']/production[@method='default']/@time">69</replace>
+		<replace sel="/wares/ware[@id='module_bor_conn_base_05']/production[@method='default']/@time">80</replace>
+		<replace sel="/wares/ware[@id='module_bor_conn_cross_01']/production[@method='default']/@time">34</replace>
+		<replace sel="/wares/ware[@id='module_bor_conn_cross_02']/production[@method='default']/@time">51</replace>
+		<replace sel="/wares/ware[@id='module_bor_conn_vertical_01']/production[@method='default']/@time">21</replace>
+		<replace sel="/wares/ware[@id='module_bor_conn_vertical_02']/production[@method='default']/@time">41</replace>
+		<replace sel="/wares/ware[@id='module_bor_def_claim_01']/production[@method='default']/@time">248</replace>
+		<replace sel="/wares/ware[@id='module_bor_def_disc_01']/production[@method='default']/@time">80</replace>
+		<replace sel="/wares/ware[@id='module_bor_def_tube_01']/production[@method='default']/@time">71</replace>
+		<replace sel="/wares/ware[@id='module_bor_dock_m_01_standard']/production[@method='default']/@time">464</replace>
+		<replace sel="/wares/ware[@id='module_bor_equip_dockarea_m_01']/production[@method='default']/@time">358</replace>
+		<replace sel="/wares/ware[@id='module_bor_equip_l_01']/production[@method='default']/@time">392</replace>
+		<replace sel="/wares/ware[@id='module_bor_equip_xl_01']/production[@method='default']/@time">682</replace>
+		<replace sel="/wares/ware[@id='module_bor_hab_l_01']/production[@method='default']/@time">384</replace>
+		<replace sel="/wares/ware[@id='module_bor_hab_m_01']/production[@method='default']/@time">208</replace>
+		<replace sel="/wares/ware[@id='module_bor_hab_s_01']/production[@method='default']/@time">112</replace>
+		<replace sel="/wares/ware[@id='module_bor_pier_l_01']/production[@method='default']/@time">443</replace>
+		<replace sel="/wares/ware[@id='module_bor_pier_l_02']/production[@method='default']/@time">170</replace>
+		<replace sel="/wares/ware[@id='module_bor_pier_l_03']/production[@method='default']/@time">652</replace>
+		<replace sel="/wares/ware[@id='module_bor_pier_l_04']/production[@method='default']/@time">310</replace>
+		<replace sel="/wares/ware[@id='module_bor_pier_tradestation_01']/production[@method='default']/@time">652</replace>
+		<replace sel="/wares/ware[@id='module_bor_prod_bofu_01']/production[@method='default']/@time">220</replace>
+		<replace sel="/wares/ware[@id='module_bor_prod_bogas_01']/production[@method='default']/@time">247</replace>
+		<replace sel="/wares/ware[@id='module_bor_prod_plankton_01']/production[@method='default']/@time">167</replace>
+		<replace sel="/wares/ware[@id='module_bor_prod_medicalsupplies_01']/production[@method='default']/@time">272</replace>
+		<replace sel="/wares/ware[@id='module_bor_stor_container_l_01']/production[@method='default']/@time">470</replace>
+		<replace sel="/wares/ware[@id='module_bor_stor_container_m_01']/production[@method='default']/@time">254</replace>
+		<replace sel="/wares/ware[@id='module_bor_stor_container_s_01']/production[@method='default']/@time">161</replace>
+		<replace sel="/wares/ware[@id='module_bor_stor_liquid_l_01']/production[@method='default']/@time">470</replace>
+		<replace sel="/wares/ware[@id='module_bor_stor_liquid_m_01']/production[@method='default']/@time">254</replace>
+		<replace sel="/wares/ware[@id='module_bor_stor_liquid_s_01']/production[@method='default']/@time">161</replace>
+		<replace sel="/wares/ware[@id='module_bor_stor_solid_l_01']/production[@method='default']/@time">470</replace>
+		<replace sel="/wares/ware[@id='module_bor_stor_solid_m_01']/production[@method='default']/@time">254</replace>
+		<replace sel="/wares/ware[@id='module_bor_stor_solid_s_01']/production[@method='default']/@time">161</replace>
 </diff>
