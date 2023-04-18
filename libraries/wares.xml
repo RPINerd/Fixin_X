@@ -353,6 +353,21 @@
 		<replace sel="/wares/ware[@id='module_ter_stor_solid_s_01']/production[@method='default']/@time">208</replace>
 
 	<!-- Pirate -->
+		<replace sel="/wares/ware[@id='module_conn_lndm_piratestation_01_core_01']/production[@method='default']/@time">127</replace> 
+		<replace sel="/wares/ware[@id='module_conn_lndm_piratestation_01_exit_01']/production[@method='default']/@time">127</replace> 
+		<replace sel="/wares/ware[@id='module_def_lndm_piratestation_02_ring_01']/production[@method='default']/@time">1386</replace> 
+		<replace sel="/wares/ware[@id='module_gen_welfare_casino_01']/production[@method='default']/@time">693</replace> 
+		<replace sel="/wares/ware[@id='module_hab_lndm_piratestation_01_port_01']/production[@method='default']/@time">980</replace> 
+		<replace sel="/wares/ware[@id='module_hab_lndm_piratestation_02_port_01']/production[@method='default']/@time">980</replace> 
+		<replace sel="/wares/ware[@id='module_hab_lndm_piratestation_02_ring_02']/production[@method='default']/@time">980</replace> 
+		<replace sel="/wares/ware[@id='module_pir_hab_l_01']/production[@method='default']/@time">693</replace> 
+		<replace sel="/wares/ware[@id='module_pir_hab_m_01']/production[@method='default']/@time">490</replace> 
+		<replace sel="/wares/ware[@id='module_pir_hab_s_01']/production[@method='default']/@time">340</replace> 
+		<replace sel="/wares/ware[@id='module_pir_stor_condensate_l_01']/production[@method='default']/@time">620</replace> 
+		<replace sel="/wares/ware[@id='module_pir_stor_condensate_s_01']/production[@method='default']/@time">196</replace> 
+		<replace sel="/wares/ware[@id='module_stor_lndm_piratestation_01_ring_01']/production[@method='default']/@time">620</replace> 
+		<replace sel="/wares/ware[@id='module_stor_lndm_piratestation_02_storage_01']/production[@method='default']/@time">620</replace> 
+		<replace sel="/wares/ware[@id='module_stor_lndm_piratestation_02_storage_02']/production[@method='default']/@time">620</replace>
 
 	<!-- Boron -->
 		<replace sel="/wares/ware[@id='module_bor_build_dockarea_m_01']/production[@method='default']/@time">413</replace>
