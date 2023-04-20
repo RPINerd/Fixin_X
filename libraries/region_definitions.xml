@@ -9,9 +9,11 @@
   <remove sel='/regions/region[@name="region2_cluster_27_sector_001"]/fields/damagefield/effects/@hull' />
 
   <!-- Tharka's Cascade -->
-  <remove sel='/regions/region[@name="region_cluster_32_sector_001"]/fields/damagefield[damage/@noshield]' />
+  <remove sel='/regions/region[@name="region_cluster_32_sector_001"]/fields/damagefield/damage/@noshield' />
+  <remove sel='/regions/region[@name="region_cluster_32_sector_001"]/fields/damagefield/effects/@hull' />
 
   <!-- Sanctuary of Darkness -->
-  <remove sel='/regions/region[@name="c605s1_region"]/fields/damagefield[damage/@noshield]' />
+  <remove sel='/regions/region[@name="c605s1_region"]/fields/damagefield/damage/@noshield' />
+  <remove sel='/regions/region[@name="c605s1_region"]/fields/damagefield/effects/@hull' />
 
 </diff>
