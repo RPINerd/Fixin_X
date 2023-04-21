@@ -5,7 +5,7 @@
 -->
 <diff>
 
-<!-- Weapon Mods -->
+<!-- Weapon Damage Mods -->
 
     <!-- mod_weapon_damage_01_mk1 -->
 	<replace sel="/equipmentmods/weapon/damage[@ware='mod_weapon_damage_01_mk1']/@min">1.2</replace>
@@ -138,7 +138,7 @@
     <replace sel="/equipmentmods/weapon/sticktime[@ware='mod_weapon_sticktime_03_mk2']/bonus/rotationspeed/@min">1.2</replace>
     <replace sel="/equipmentmods/weapon/sticktime[@ware='mod_weapon_sticktime_03_mk2']/bonus/lifetime/@min">1.2</replace>
     
-<!-- Surface Element Mods -->
+<!-- Weapon Surface Element Mods -->
     
     <!-- mod_weapon_surfaceelement_01_mk1 -->
     <replace sel="/equipmentmods/weapon/surfaceelement[@ware='mod_weapon_surfaceelement_01_mk1']/@min">1.35</replace>
@@ -154,7 +154,7 @@
     <replace sel="/equipmentmods/weapon/surfaceelement[@ware='mod_weapon_surfaceelement_01_mk3']/bonus/rotationspeed/@min">1.3</replace>
     <replace sel="/equipmentmods/weapon/surfaceelement[@ware='mod_weapon_surfaceelement_01_mk3']/bonus/lifetime/@min">1.2</replace>
 
-<!-- Misc Weapon Mods -->
+<!-- Weapon Situational Mods -->
 
     <replace sel="/equipmentmods/weapon/reload[@ware='mod_weapon_reload_01_mk1']/@min">2</replace>
     <replace sel="/equipmentmods/weapon/beamlength[@ware='mod_weapon_beamlength_01_mk1']/@min">1.1</replace>
@@ -192,6 +192,7 @@
     <!-- mod_engine_boostthrust_02_mk1 -->
     <replace sel="/equipmentmods/engine/boostthrust[@ware='mod_engine_boostthrust_02_mk1']/@min">1.45</replace>
     <replace sel="/equipmentmods/engine/boostthrust[@ware='mod_engine_boostthrust_02_mk1']/bonus/travelthrust/@min">0.75</replace>
+
     <!-- mod_engine_boostthrust_01_mk2 -->
     <replace sel="/equipmentmods/engine/boostthrust[@ware='mod_engine_boostthrust_01_mk2']/@min">1.2</replace>
     <replace sel="/equipmentmods/engine/boostthrust[@ware='mod_engine_boostthrust_01_mk2']/bonus/boostduration/@min">1.2</replace>
@@ -207,7 +208,7 @@
     <replace sel="/equipmentmods/engine/boostthrust[@ware='mod_engine_boostthrust_01_mk3']/bonus/rotationthrust/@min">1.3</replace>
     <replace sel="/equipmentmods/engine/boostthrust[@ware='mod_engine_boostthrust_01_mk3']/bonus/strafethrust/@min">1.3</replace>
 
-<!-- Travel Thrust Mods -->
+<!-- Engine Travel Thrust Mods -->
 
     <!-- mod_engine_travelthrust_01_mk1 -->
     <replace sel="/equipmentmods/engine/travelthrust[@ware='mod_engine_travelthrust_01_mk1']/@min">1.2</replace>
@@ -235,7 +236,7 @@
     <replace sel="/equipmentmods/engine/travelthrust[@ware='mod_engine_travelthrust_01_mk3']/bonus/rotationthrust/@min">1.3</replace>
     <replace sel="/equipmentmods/engine/travelthrust[@ware='mod_engine_travelthrust_01_mk3']/bonus/strafethrust/@min">1.3</replace>
 
-<!-- Rotational Thrust Mods -->
+<!-- Engine Rotational Thrust Mods -->
 
     <!-- mod_engine_rotationthrust_01_mk1 -->
     <replace sel="/equipmentmods/engine/rotationthrust[@ware='mod_engine_rotationthrust_01_mk1']/@min">1.2</replace>
@@ -247,7 +248,7 @@
     <replace sel="/equipmentmods/engine/rotationthrust[@ware='mod_engine_rotationthrust_01_mk3']/bonus/forwardthrust/@min">1.15</replace>
     <replace sel="/equipmentmods/engine/rotationthrust[@ware='mod_engine_rotationthrust_01_mk3']/bonus/strafethrust/@min">1.5</replace>
 
-<!-- Strafe Thrust Mods -->
+<!-- Engine Strafe Thrust Mods -->
 
     <!-- mod_engine_strafethrust_01_mk1 -->
     <replace sel="/equipmentmods/engine/strafethrust[@ware='mod_engine_strafethrust_01_mk1']/@min">1.2</replace>
@@ -255,7 +256,7 @@
     <replace sel="/equipmentmods/engine/strafethrust[@ware='mod_engine_strafethrust_02_mk1']/@min">1.45</replace>
     <replace sel="/equipmentmods/engine/strafethrust[@ware='mod_engine_strafethrust_02_mk1']/bonus/rotationthrust/@min">0.75</replace>
 
-<!-- Misc Engine Mods -->
+<!-- Engine Misc Mods -->
 
     <replace sel="/equipmentmods/engine/travelstartthrust[@ware='mod_engine_travelstartthrust_01_mk1']/@min">1.2</replace>
     <replace sel="/equipmentmods/engine/travelattacktime[@ware='mod_engine_travelattacktime_01_mk1']/@max">0.8</replace>
@@ -292,14 +293,31 @@
     <replace sel="/equipmentmods/ship/drag[@ware='mod_ship_drag_01_mk2']/bonus/missilecapacity/@min">4</replace>
     <replace sel="/equipmentmods/ship/drag[@ware='mod_ship_drag_01_mk2']/bonus/unitcapacity/@min">4</replace>
 
-<!-- Misc Ship Mods -->
+<!-- Ship Radar Mods -->
+
+    <!-- mod_ship_radarrange_01_mk1 -->
+    <replace sel="/equipmentmods/ship/radarrange[@ware='mod_ship_radarrange_01_mk1']/@min">1.2</replace>
+    <!-- mod_ship_radarcloak_01_mk1 -->
+    <replace sel="/equipmentmods/ship/radarcloak[@ware='mod_ship_radarcloak_01_mk1']/@min">-0.3</replace>
+    <replace sel="/equipmentmods/ship/radarcloak[@ware='mod_ship_radarcloak_01_mk1']/bonus/radarrange/@min">0.7</replace>
+    <!-- mod_ship_radarcloak_01_mk2 -->
+    <replace sel="/equipmentmods/ship/radarcloak[@ware='mod_ship_radarcloak_01_mk2']/@min">-0.1</replace>
+    <!-- mod_ship_radarcloak_01_mk3 -->
+    <replace sel="/equipmentmods/ship/radarcloak[@ware='mod_ship_radarcloak_01_mk3']/@min">-0.4</replace>
+    <replace sel="/equipmentmods/ship/radarcloak[@ware='mod_ship_radarcloak_01_mk3']/bonus/radarrange/@min">1.2</replace>
+
+<!-- Ship Misc Mods -->
 
     <replace sel="/equipmentmods/ship/maxhull[@ware='mod_ship_maxhull_01_mk1']/@min">1.2</replace>
-    <replace sel="/equipmentmods/ship/radarrange[@ware='mod_ship_radarrange_01_mk1']/@min">1.2</replace>
     <replace sel="/equipmentmods/ship/countermeasurecapacity[@ware='mod_ship_countermeasurecapacity_01_mk1']/@min">4</replace>
     <replace sel="/equipmentmods/ship/deployablecapacity[@ware='mod_ship_deployablecapacity_01_mk1']/@min">4</replace>
     <replace sel="/equipmentmods/ship/missilecapacity[@ware='mod_ship_missilecapacity_01_mk1']/@min">4</replace>
     <replace sel="/equipmentmods/ship/unitcapacity[@ware='mod_ship_unitcapacity_01_mk1']/@min">4</replace>
+    <replace sel="/equipmentmods/ship/regiondamage[@ware='mod_ship_regiondamage_01_mk1']/@min">0.9</replace>
+    <replace sel="/equipmentmods/ship/regiondamage[@ware='mod_ship_regiondamage_01_mk1']/bonus/maxhull/@min">0.9</replace>
+    <replace sel="/equipmentmods/ship/regiondamage[@ware='mod_ship_regiondamage_01_mk2']/@min">0.65</replace>
+    <replace sel="/equipmentmods/ship/regiondamage[@ware='mod_ship_regiondamage_01_mk3']/bonus/maxhull/@min">1.2</replace>
+
 
 <!-- Shield Capacity Mods -->
 
