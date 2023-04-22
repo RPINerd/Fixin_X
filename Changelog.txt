@@ -1,3 +1,13 @@
+V 1.7_dev
+
+- Increaced (minorly) most of the percentages for info unlocking when scanning stations
+
+- Updated L/XL charge time for both Avarice and Boron expansions
+
+- Added Avarice/Boron modules for build time reduction
+
+- Updated missing/changed ship mods to remove RNG
+
 V 1.6
 
 - Fixed a HUGE oversight of not having the expansions as a dependency
