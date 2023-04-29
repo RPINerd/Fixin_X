@@ -197,7 +197,7 @@
 		<replace sel="/wares/ware[@id='module_par_conn_vertical_01']/production[@method='default']/@time">47</replace>
 		<replace sel="/wares/ware[@id='module_par_conn_vertical_02']/production[@method='default']/@time">64</replace>
 		<replace sel="/wares/ware[@id='module_par_def_claim_01']/production[@method='default']/@time">673</replace>
-		<replace sel="/wares/ware[@id='module_par_def_claim_story_01']/production[@method='default']/@time">1440</replace>
+		<replace sel="/wares/ware[@id='module_par_def_claim_story_01']/production[@method='default']/@time">702</replace>
 		<replace sel="/wares/ware[@id='module_par_def_disc_01']/production[@method='default']/@time">473</replace>
 		<replace sel="/wares/ware[@id='module_par_def_tube_01']/production[@method='default']/@time">411</replace>
 		<replace sel="/wares/ware[@id='module_par_hab_l_01']/production[@method='default']/@time">1012</replace>
@@ -351,8 +351,12 @@
 		<replace sel="/wares/ware[@id='module_ter_stor_solid_l_01']/production[@method='default']/@time">536</replace>
 		<replace sel="/wares/ware[@id='module_ter_stor_solid_m_01']/production[@method='default']/@time">360</replace>
 		<replace sel="/wares/ware[@id='module_ter_stor_solid_s_01']/production[@method='default']/@time">208</replace>
+		<replace sel="/wares/ware[@id='module_ter_prod_scrap_recycler']/production[@method='default']/@time">466</replace>
 
 	<!-- Pirate -->
+		<replace sel="/wares/ware[@id='module_gen_welfare_gamblinghall_01']/production[@method='default']/@time">438</replace>
+		<replace sel="/wares/ware[@id='module_gen_prod_scrap_recycler']/production[@method='default']/@time">466</replace>
+		<replace sel="/wares/ware[@id='module_gen_proc_scrapworks']/production[@method='default']/@time">340</replace>
 		<replace sel="/wares/ware[@id='module_conn_lndm_piratestation_01_core_01']/production[@method='default']/@time">127</replace> 
 		<replace sel="/wares/ware[@id='module_conn_lndm_piratestation_01_exit_01']/production[@method='default']/@time">127</replace> 
 		<replace sel="/wares/ware[@id='module_def_lndm_piratestation_02_ring_01']/production[@method='default']/@time">1386</replace> 
