@@ -414,4 +414,5 @@
 		<replace sel="/wares/ware[@id='module_bor_stor_solid_l_01']/production[@method='default']/@time">470</replace>
 		<replace sel="/wares/ware[@id='module_bor_stor_solid_m_01']/production[@method='default']/@time">254</replace>
 		<replace sel="/wares/ware[@id='module_bor_stor_solid_s_01']/production[@method='default']/@time">161</replace>
+		
 </diff>
