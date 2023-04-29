@@ -8,6 +8,8 @@ V 1.7_dev
 
 - Updated missing/changed ship mods to remove RNG
 
+- Reworked and updated Readme for both GitHub and Nexus
+
 V 1.6
 
 - Fixed a HUGE oversight of not having the expansions as a dependency
