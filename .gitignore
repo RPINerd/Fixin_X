@@ -1,3 +1,5 @@
-unpack.py
+*.py
 *.zip
 *.code-workspace
+*.vscode
+*.tmp
