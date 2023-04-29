@@ -23,7 +23,7 @@ __Windows:__ It should be fine in the extensions folder but I have no way to tes
 
 - Lower station scan percentage needed for info
 - Fix for illegal goods not being sellable
-- Buildtime for all station modules reduced to 80% of their original speed
+- Buildtime for all station modules reduced to 60% of their original speed
 - Range and strength of repair laser increaced
 - Visibility range of satellites bumped up mildly
 - Learning All The Things (Custom Configuration)
@@ -57,7 +57,7 @@ _There are a handful of things that I have outright disabled out of preference. 
 
 ---
 
-## Specific Mods Adapted Into This Merge:
+## Specific Mods Adapted Into This Merge
 
 [G_Pack](https://www.nexusmods.com/x4foundations/mods/290) by ___g_BonE___
 
@@ -84,18 +84,6 @@ _There are a handful of things that I have outright disabled out of preference. 
 [Build Time Reduction](https://www.nexusmods.com/x4foundations/mods/139) ___mjr121___  
 
 - Big changes here. The original mod cuts all construction except for Xenon by 10 fold. This means connectors build in like 10 seconds. I appreciate the wait for a complicated module to build, but the vanilla game just chugs when you want to start throwing down super factories. After many hundreds of hours of playing with this, I've currently gotten the times cut down by 40%. I will likely change this again as the game develops. ADDITIONALLY, I've added all the split architecture as well!
-
-[Skip Station Scan]() by ___navik659___  
-
-- You can check out the exact values in the file, but in general you will get more information with less scanning. Things which are more secretive or should not be general knowlege will still require up to 70% of the station to be scanned
-
-[Fix Illegal Buy]() by ___TheLich___  
-
-- Blackmarket dealers no longer refuse to buy hacking tools due to your "reputation being too low"
-
-[Rare Modparts Sold]() by ___t12121970___  
-
-- Traders have a small chance to sell mod parts in very limited quantities
 
 ---
 
