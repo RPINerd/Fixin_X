@@ -33,6 +33,7 @@ Miscellaneous
   Mod RNG ~ Mod equipping is no longer a slot machine, when you buy a part mod you know that you are going to get the max benefit.
   Black Market Selling ~ Black market dealers will buy the hacking tools without complaining your relation is not high enough
   Silent Crew Seats ~ Crew constantly hopping from chair to chair will no longer give you an aneurism as the seats are now silent
+  Chill Out Hazards ~ Sheild only damage for The Void, Tharkas' Cascade and Sanctuary of Darkness
 
 Learning All The Things (https://www.nexusmods.com/x4foundations/mods/8) and
 Improved Repair Laser (https://www.nexusmods.com/x4foundations/mods/5)
