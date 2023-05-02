@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This value simply adjusts the range at which explosions can damage you. The vanilla game felt way too brutal, especially when a fighter or drone swarm is obliterated mid epic battle. My assumptions are that range is in meters and the falloff is a function of decay where a falloff of 1 means the effect has 0% strength at the given range value.-->
+
+<diff>
+
+    <!-- Large Ships -->
+    <!-- Vanilla range is 5000 with a falloff of 1 -->
+    <!-- I've cut this in half and brought down the falloff to 0.8. The intent is to have 20% of the max damage dealt at 2.5km out. -->
+    <replace sel="/effects/effect [@name='ship_explosion_generator']/effects/effect [@name='bigexplosion_rumble_l']/elements/element [@id='4']/areadamage/@range">2500</replace>
+    <replace sel="/effects/effect [@name='ship_explosion_generator']/effects/effect [@name='bigexplosion_rumble_l']/elements/element [@id='4']/areadamage/@falloff">0.8</replace>
+
+    <!-- Another Large? -->
+    <!-- Vanilla range is 1000 with a falloff of 1 -->
+    <replace sel="/effects/effect [@name='explosion_l_01']/elements/element [@id='8']/areadamage/@range">500</replace>
+    <replace sel="/effects/effect [@name='explosion_l_01']/elements/element [@id='8']/areadamage/@falloff">0.8</replace>
+
+
+
+    <!-- Capital Ships (I believe) -->
+    <!-- Vanilla range is 2000 with a falloff of 1 -->
+    <replace sel="/effects/effect [@name='capital_explosion']/elements/element [@id='18']/areadamage/@range">1000</replace>
+    <replace sel="/effects/effect [@name='capital_explosion']/elements/element [@id='18']/areadamage/@falloff">0.8</replace>
+
+    <!-- Station -->
+    <!-- Vanilla range is 2000 with a falloff of 1 -->
+    <replace sel="/effects/effect [@name='explosion_station_01']/elements/element [@id='5']/areadamage/@range">1000</replace>
+    <replace sel="/effects/effect [@name='explosion_station_01']/elements/element [@id='5']/areadamage/@falloff">0.8</replace>
+</diff>
