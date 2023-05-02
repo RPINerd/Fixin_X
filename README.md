@@ -33,6 +33,7 @@ __Windows:__ It should be fine in the extensions folder but I have no way to tes
 - No more obnoxious chair swapping noise
 - Reduction of travel engine charge time for L and XL ships
 - More NPC's populate docks and bars
+- Cut down big explosion damage radius
 - Probably more I'm forgetting
 
 ---

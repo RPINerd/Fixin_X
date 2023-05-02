@@ -47,6 +47,7 @@ A big [u]thank[/u] you to all the modders who made the individual tweaks I've pu
 [*] Black market dealers will buy the hacking tools without complaining your relation is not high enough
 [*] Crew constantly hopping from chair to chair will no longer give you an aneurism as the seats are now silent
 [*] Sheild only hazard damage for The Void, Tharkas' Cascade and Sanctuary of Darkness
+[*] Cut down explosion damage radius by half, and reduced falloff by 20%
 [/list]
 
 [url=https://www.nexusmods.com/x4foundations/mods/8]Learning All The Things[/url] and [url=https://www.nexusmods.com/x4foundations/mods/5]Improved Repair Laser[/url]
