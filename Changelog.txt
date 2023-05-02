@@ -10,6 +10,8 @@ V 1.7_dev
 
 - Reworked and updated Readme for both GitHub and Nexus
 
+- Relaxed the distance at which explosions cause damage
+
 V 1.6
 
 - Fixed a HUGE oversight of not having the expansions as a dependency
