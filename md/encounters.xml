@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This section is responsible for spawning the "random encounters" when you venture way out in the far reaches of a sector -->
+
+<replace sel="/cues/cue [@name='Manager']/actions/set_value [@name='$NextCheckTime']/effect [@name='bigexplosion_rumble_l']/elements/element [@id='4']/areadamage/@range">2500</replace>
+
+<!-- Copied from a post on Nexus -->
+<diff>
+    <add sel="//cue[@name='NewEncounterShipActivated']/conditions">
+        <check_value value="false" />
+    </add>
+</diff>
