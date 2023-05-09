@@ -1,5 +1,9 @@
 V 1.7_dev
 
+- Corrected all erroneous build time changes, now 60% of original across the board
+
+- Added the Xenon to build time reduction.. it's only fair
+
 - Increaced (minorly) most of the percentages for info unlocking when scanning stations
 
 - Updated L/XL charge time for both Avarice and Boron expansions
