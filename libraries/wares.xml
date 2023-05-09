@@ -359,16 +359,15 @@
 		<replace sel="/wares/ware[@id='module_ter_stor_liquid_s_tradestation']/production[@method='default']/@time">220</replace>
 		<replace sel="/wares/ware[@id='module_ter_stor_solid_l_01']/production[@method='default']/@time">402</replace>
 		<replace sel="/wares/ware[@id='module_ter_stor_solid_m_01']/production[@method='default']/@time">270</replace>
-		<replace sel="/wares/ware[@id='module_ter_stor_solid_s_01']/production[@method='default']/@time">156</replace>
-		<!-- Pirate Addition -->
-		<replace sel="/wares/ware[@id='module_ter_prod_scrap_recycler']/production[@method='default']/@time">466</replace>
+		<replace sel="/wares/ware[@id='module_ter_stor_solid_s_01']/production[@method='default']/@time">156</replace>		
 
 	<!-- Pirate -->
-		<!-- General/Scrapyard -->
+		<!-- Welfare/Scrapyard -->
 		<replace sel="/wares/ware[@id='module_gen_welfare_gamblinghall_01']/production[@method='default']/@time">438</replace>
 		<replace sel="/wares/ware[@id='module_gen_welfare_casino_01']/production[@method='default']/@time">693</replace> 
 		<replace sel="/wares/ware[@id='module_gen_prod_scrap_recycler']/production[@method='default']/@time">466</replace>
 		<replace sel="/wares/ware[@id='module_gen_proc_scrapworks']/production[@method='default']/@time">340</replace>
+		<replace sel="/wares/ware[@id='module_ter_prod_scrap_recycler']/production[@method='default']/@time">466</replace>
 		<!-- Pirate Station -->
 		<replace sel="/wares/ware[@id='module_conn_lndm_piratestation_01_core_01']/production[@method='default']/@time">127</replace> 
 		<replace sel="/wares/ware[@id='module_conn_lndm_piratestation_01_exit_01']/production[@method='default']/@time">127</replace> 
