@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Stop your log being spammed with "reputation gained" when the actual number doesn't even change -->
+
+<diff>
+    <replace sel="/mdscript/cues/cue[@name='Init']/cues/cue[@name='BaseRelationChanged']/actions/write_to_logbook">
+        <do_if value="$newnum != $oldnum">
+            <write_to_logbook category="general" title="$title" faction="event.param" text="$logtext"/>
+        </do_if>
+    </replace>
+</diff>
