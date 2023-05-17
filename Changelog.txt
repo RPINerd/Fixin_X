@@ -1,6 +1,6 @@
 V 1.8
 
-- Tweaked the explosion distance, last version felt a bit too software
+- Tweaked the explosion distance, last version felt a bit too soft
 
 - With inspiration from the forums, stopped incosequential relation changes from being logged
 
