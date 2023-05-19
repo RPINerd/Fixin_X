@@ -4,7 +4,7 @@ V 1.8
 
 - With inspiration from the forums, stopped incosequential relation changes from being logged
 
-
+- Removed the "sticktime" bonus effect from Obliterator and Anihhilator mods
 
 V 1.73
 
